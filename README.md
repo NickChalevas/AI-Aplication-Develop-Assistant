@@ -57,10 +57,13 @@ In the input field at the top, type a clear and concise description of the code 
 # View Results: 
 The generated Python code will appear in the "Generated Code" editor, and the corresponding README.md will appear in the "Generated README.md" editor.Save Files: Use the "💾 Save Code" and "📄 Save README.md" buttons to save the content to your local machine.
 # Dependencies:
-### Python 3.x PyQt5:
-For the graphical user interface.requests: For making HTTP requests to the OpenAI API.
+### Python 3.x PyQt5 requests:
+For the graphical user interface. 
+## requests:
+For making HTTP requests to the OpenAI API.
 # License:
 This project is licensed under the MIT License.
+
 
 
 
