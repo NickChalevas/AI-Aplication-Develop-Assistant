@@ -4,7 +4,11 @@ This application is a desktop tool built with PyQt5 that interfaces with the Ope
 # Features Intuitive UI:
 A clean and responsive user interface built with PyQt5.
 # GPT-4 Integration:
-Utilizes the OpenAI GPT-4 model for powerful code and documentation generation.Dual Editors: Dedicated editor panels for displaying generated Python code and Markdown READMEs.Dark Theme: A visually appealing dark mode for comfortable coding.Code & README Generation: Generate both functional Python code and comprehensive README.md files from a single prompt.
+Utilizes the OpenAI GPT-4 model for powerful code and documentation generation.Dual Editors: Dedicated editor panels for displaying generated Python code and Markdown READMEs.
+# Dark Theme:
+A visually appealing dark mode for comfortable coding.
+# Code & README Generation:
+Generate both functional Python code and comprehensive README.md files from a single prompt.
 # File Saving: 
 Easily save generated code as .py files and documentation as README.md files.
 # Real-time Status Updates:
@@ -48,6 +52,7 @@ In the input field at the top, type a clear and concise description of the code 
 The generated Python code will appear in the "Generated Code" editor, and the corresponding README.md will appear in the "Generated README.md" editor.Save Files: Use the "💾 Save Code" and "📄 Save README.md" buttons to save the content to your local machine.DependenciesPython 3.xPyQt5: For the graphical user interface.requests: For making HTTP requests to the OpenAI API.
 # License:
 This project is licensed under the MIT License.
+
 
 
 
