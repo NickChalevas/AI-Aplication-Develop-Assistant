@@ -22,7 +22,10 @@ cd gpt4-code-generator
 # Install dependencies:
 pip install PyQt5 requests
 ```
-Set up your OpenAI API Key:Obtain an API key from the OpenAI website.Important: The current code has a hardcoded API key (self.api_key). For production use, it's highly recommended to store your API key securely, preferably as an environment variable, rather than directly in the code.For example, you could modify the __init__ method to retrieve it like this:
+# Set up your OpenAI API Key:
+Obtain an API key from the OpenAI website.
+# Important:
+The current code has a hardcoded API key (self.api_key). For production use, it's highly recommended to store your API key securely, preferably as an environment variable, rather than directly in the code.For example, you could modify the __init__ method to retrieve it like this:
 ```python
 import os
 class ModernGPT4Bot(QMainWindow):
@@ -52,6 +55,7 @@ In the input field at the top, type a clear and concise description of the code 
 The generated Python code will appear in the "Generated Code" editor, and the corresponding README.md will appear in the "Generated README.md" editor.Save Files: Use the "💾 Save Code" and "📄 Save README.md" buttons to save the content to your local machine.DependenciesPython 3.xPyQt5: For the graphical user interface.requests: For making HTTP requests to the OpenAI API.
 # License:
 This project is licensed under the MIT License.
+
 
 
 
