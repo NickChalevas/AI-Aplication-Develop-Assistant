@@ -1,4 +1,4 @@
-✨GPT-4 AI Application Generator(Assistant)
+✨GPT-4 AI Application Generator (Assistant)
 # Description
 This application is a desktop tool built with PyQt5 that interfaces with the OpenAI GPT-4 API to generate Python code and accompanying README documentation based on user prompts. It features a modern, dark-themed user interface, allowing users to quickly generate, view, and save code and markdown files.
 # Features Intuitive UI:
@@ -44,6 +44,7 @@ In the input field at the top, type a clear and concise description of the code 
 The generated Python code will appear in the "Generated Code" editor, and the corresponding README.md will appear in the "Generated README.md" editor.Save Files: Use the "💾 Save Code" and "📄 Save README.md" buttons to save the content to your local machine.DependenciesPython 3.xPyQt5: For the graphical user interface.requests: For making HTTP requests to the OpenAI API.
 # License:
 This project is licensed under the MIT License.
+
 
 
 
