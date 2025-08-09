@@ -4,12 +4,13 @@ This application is a desktop tool built with PyQt5 that interfaces with the Ope
 cd gpt4-code-generator
 (Replace https://your-repo-link-here.git with the actual repository URL if this project is hosted.)Install dependencies:pip install PyQt5 requests
 Set up your OpenAI API Key:Obtain an API key from the OpenAI website.Important: The current code has a hardcoded API key (self.api_key). For production use, it's highly recommended to store your API key securely, preferably as an environment variable, rather than directly in the code.For example, you could modify the __init__ method to retrieve it like this:import os
-# ...
+""" python
 class ModernGPT4Bot(QMainWindow):
     def __init__(self):
         # ...
         self.api_key = os.getenv("OPENAI_API_KEY", "YOUR_DEFAULT_OR_PLACEHOLDER_KEY")
         # ...
+"""
 Then, set the environment variable before running:export OPENAI_API_KEY="sk-your-openai-api-key"
 # On Windows (Command Prompt):
 set OPENAI_API_KEY="sk-your-openai-api-key"
@@ -17,3 +18,4 @@ set OPENAI_API_KEY="sk-your-openai-api-key"
 $env:OPENAI_API_KEY="sk-your-openai-api-key"
 UsageRun the application:python your_app_file_name.py
 (Replace your_app_file_name.py with the actual name of the Python script containing the ModernGPT4Bot class.)Enter your prompt: In the input field at the top, type a clear and concise description of the code you want GPT-4 to generate (e.g., "create a simple to-do list application with a GUI using tkinter").Generate: Click the "🚀 Generate" button or press Enter.View Results: The generated Python code will appear in the "Generated Code" editor, and the corresponding README.md will appear in the "Generated README.md" editor.Save Files: Use the "💾 Save Code" and "📄 Save README.md" buttons to save the content to your local machine.DependenciesPython 3.xPyQt5: For the graphical user interface.requests: For making HTTP requests to the OpenAI API.LicenseThis project is licensed under the MIT License - see the LICENSE.md file for details.
+
