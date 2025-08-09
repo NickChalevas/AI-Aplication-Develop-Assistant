@@ -34,7 +34,10 @@ class ModernGPT4Bot(QMainWindow):
         self.api_key = os.getenv("OPENAI_API_KEY", "YOUR_DEFAULT_OR_PLACEHOLDER_KEY")
         # ...
 ```
-Then, set the environment variable before running:export OPENAI_API_KEY="sk-your-openai-api-key"
+## Then, set the environment variable before running:
+```bash
+export OPENAI_API_KEY="sk-your-openai-api-key"
+```
 # On Windows (Command Prompt):
 ```shell
 set OPENAI_API_KEY="sk-your-openai-api-key"
@@ -52,9 +55,12 @@ python your_app_file_name.py
 Enter your prompt: 
 In the input field at the top, type a clear and concise description of the code you want GPT-4 to generate (e.g., "create a simple to-do list application with a GUI using tkinter").Generate: Click the "🚀 Generate" button or press Enter.
 # View Results: 
-The generated Python code will appear in the "Generated Code" editor, and the corresponding README.md will appear in the "Generated README.md" editor.Save Files: Use the "💾 Save Code" and "📄 Save README.md" buttons to save the content to your local machine.DependenciesPython 3.xPyQt5: For the graphical user interface.requests: For making HTTP requests to the OpenAI API.
+The generated Python code will appear in the "Generated Code" editor, and the corresponding README.md will appear in the "Generated README.md" editor.Save Files: Use the "💾 Save Code" and "📄 Save README.md" buttons to save the content to your local machine.
+#DependenciesPython 3.xPyQt5:
+For the graphical user interface.requests: For making HTTP requests to the OpenAI API.
 # License:
 This project is licensed under the MIT License.
+
 
 
 
