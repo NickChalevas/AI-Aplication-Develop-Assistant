@@ -25,7 +25,9 @@ class ModernGPT4Bot(QMainWindow):
 ```
 Then, set the environment variable before running:export OPENAI_API_KEY="sk-your-openai-api-key"
 # On Windows (Command Prompt):
+```shell
 set OPENAI_API_KEY="sk-your-openai-api-key"
+```
 # On Windows (Powerbash):
 ```bash
 $env:OPENAI_API_KEY="sk-your-openai-api-key"
@@ -42,6 +44,7 @@ In the input field at the top, type a clear and concise description of the code 
 The generated Python code will appear in the "Generated Code" editor, and the corresponding README.md will appear in the "Generated README.md" editor.Save Files: Use the "💾 Save Code" and "📄 Save README.md" buttons to save the content to your local machine.DependenciesPython 3.xPyQt5: For the graphical user interface.requests: For making HTTP requests to the OpenAI API.
 # License:
 This project is licensed under the MIT License - see the LICENSE.md file for details.
+
 
 
 
