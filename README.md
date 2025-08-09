@@ -31,7 +31,7 @@ import os
 class ModernGPT4Bot(QMainWindow):
     def __init__(self):
         # ...
-        self.api_key = "" or use the env function to get env variable
+        self.api_key = "" ##or use the env function to get env variable
         # ...
 ```
 ## Then, set the environment variable before running:
@@ -63,6 +63,7 @@ For the graphical user interface.
 For making HTTP requests to the OpenAI API.
 # License:
 This project is licensed under the MIT License.
+
 
 
 
