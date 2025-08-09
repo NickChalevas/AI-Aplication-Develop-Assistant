@@ -42,7 +42,7 @@ export OPENAI_API_KEY="sk-your-openai-api-key"
 ```shell
 set OPENAI_API_KEY="sk-your-openai-api-key"
 ```
-# On Windows (Powerbash):
+# On Windows (Powershell):
 ```bash
 $env:OPENAI_API_KEY="sk-your-openai-api-key"
 ```
@@ -60,6 +60,7 @@ The generated Python code will appear in the "Generated Code" editor, and the co
 For the graphical user interface.requests: For making HTTP requests to the OpenAI API.
 # License:
 This project is licensed under the MIT License.
+
 
 
 
